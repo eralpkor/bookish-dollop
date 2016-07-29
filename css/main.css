@@ -1,0 +1,182 @@
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat+Alternates';
+@import 'https://fonts.googleapis.com/css?family=Space+Mono';
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+body {
+  background-color: #4D2D22; /*#117799;*/
+  font-family: 'Montserrat Alternates', sans-serif;
+  color:black;
+  /*padding-top: 70px*/
+}
+/*.navbar.navbar-fixed-top div a {
+  color: #fff;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #fff;
+}*/
+
+ .navbar {
+    margin-bottom: 0;
+    background-color: #573327; /*117799 #1E88E5*/
+    background: #573327;
+    border-color: #573327;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar a,button {
+  color: white !important;
+}
+.navbar-toggle {  
+  background: #573327;
+  border-color: #573327;
+}
+.icon-bar{
+  background-color: white;
+}
+div.navbar div.navbar-inner ul.nav a:hover {
+    color: black !important; 
+}
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: #555 !important;
+    color: #fff !important;
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
+.myCenter{
+  width:800px;
+  height:300px;
+  margin: auto;
+  position:absolute;
+  top:0;bottom:0;
+  left:0;right:0;
+  max-width:100%;
+  max-height:100%;
+  overflow:auto;
+}
+.myImage {
+  text-align: center;
+  background:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),url(http://res.cloudinary.com/default-ek/image/upload/v1469635008/coding-924920_1920_x2ewov.jpg)
+  no-repeat center center;
+  height: 100vh;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.spaceHolder{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1)),
+  url(http://res.cloudinary.com/default-ek/image/upload/c_scale,h_750,q_63,w_1217/v1469652443/dream_qd2b9j.jpg)
+  no-repeat center center;
+  height: 100vh;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.image-drop {
+    border-color: #C9B1A9;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    
+  }
+.intro{
+  font-family: 'Dancing Script', cursive;
+  font-size: 112px;
+
+}
+.title1{
+font-size: 20px;
+}
+.title2{
+font-size: 18px;
+}
+.small-box{
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2%;
+}
+.big-box{
+  font-size: 18px;
+  text-align: left;
+}
+.md-text{
+  font-size: 25px;
+  text-align: center;
+}
+.small-img{
+  padding-top: 0;
+}
+.well{
+  background-color: #DECBC5;
+  border-color: #DECBC5;
+}
+.about-text{
+  margin-top: 15vh;
+}
+/*.col-xs-3.col-md-4.col-lg-4{
+  background-color: #C9B1A9;}*/
+hr{
+  color: black;
+  border-color: black;
+  background-color: black;
+  /*width: 75%;*/
+}
+
+.aboLanding{
+  background-color: #C9B1A9; /*#E6F1F5*/
+  width:auto;
+  height:600px;
+  padding-top: 20px;
+}
+#contact{
+background-color: #DECBC5; /*#E6F1F5*/
+  width:auto;
+  height:600px;
+  padding-top: 20px; 
+  line-height: 60pt;
+}
+#portfolio{
+  padding-top: 10px;
+  width: auto;
+  background-color: #D1BBB4;
+}
+/* centered columns */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+.social-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    /*font-weight: 400;*/
+    letter-spacing: 2px;
+  }
+.footer-name{
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white;
+  width: auto;
+  height: 60px;
+}
+
