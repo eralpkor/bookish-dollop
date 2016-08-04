@@ -41,7 +41,7 @@ div.navbar div.navbar-inner ul.nav a:hover {
     padding-top: 0;
 }
 
-.intro {
+h1.intro{
   font-family: 'Dancing Script', cursive;
   font-size: 10vw;
   text-align: center;
