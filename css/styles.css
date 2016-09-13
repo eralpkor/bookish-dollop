@@ -8,15 +8,9 @@ html, body{
 /* Navigation Bar */
 .navbar {
     margin-bottom: 0;
-<<<<<<< HEAD
-    background-color: #366FF5; 
+    background-color: #366FF5; /*#65DB40; /*117799 #1E88E5*/
     background: #366FF5;
     border-color: #366FF5;
-=======
-    background-color: #65DB40; /*117799 #1E88E5*/
-    background: #65DB40;
-    border-color: #65DB40;
->>>>>>> origin/master
     border: 0;
     font-size: 12px !important;
     letter-spacing: 4px;
@@ -27,20 +21,12 @@ html, body{
   color: white !important;
 }
 .navbar-toggle {  
-<<<<<<< HEAD
   background: #366FF5;
   border-color: #366FF5;
 }
 .icon-bar{
   background-color: white;
 
-=======
-  background: #65DB40;
-  border-color: #65DB40;
-}
-.icon-bar{
-  background-color: white;
->>>>>>> origin/master
 }
 div.navbar div.navbar-inner ul.nav a:hover {
     color: black !important; 
@@ -49,7 +35,19 @@ div.navbar div.navbar-inner ul.nav a:hover {
     background-color: #555 !important;
     color: #fff !important;
 }
-<<<<<<< HEAD
+.navbar-brand,
+/*.navbar-nav li a {
+    line-height: 50px;
+    height: 40px;
+    padding-top: 30px;
+}*/
+@media (max-width: 767px){
+	.navbar-brand{
+		padding-top: 
+		height:;
+	}
+	.navbar-brand
+}
 #logo-img{
   background: url('../img/logo-small.png') no-repeat;
   background-size: 85px;
@@ -59,23 +57,12 @@ div.navbar div.navbar-inner ul.nav a:hover {
   text-shadow: white 0px 0px 2px;
 }
 h1.intro{
-=======
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 50px;
-    height: 50px;
-    padding-top: 0;
-}
-
-.intro {
->>>>>>> origin/master
   font-family: 'Dancing Script', cursive;
   font-size: 10vw;
   text-align: center;
 	color:white;
 }
 .intro-text{
-<<<<<<< HEAD
   font-size: 2vw;
 	text-align: center;
 	letter-spacing: 4px;
@@ -90,30 +77,17 @@ h1.intro{
     font-size: 5vw;
   }
 }
-=======
-  font-size: 18px;
-	text-align: center;
-	letter-spacing: 4px;
-}
->>>>>>> origin/master
 .style-margin-top{
 	margin-top: 50px !important;
 	margin-left: 10px!important;
 	margin-right: 10px!important;
 }
 .kor-text{
-<<<<<<< HEAD
-	margin-top: 10px;
-}
-#about{
-  background-color: #EEEDFA 
-=======
 	font-family: 'Montserrat Alternates', sans-serif!important;
 	margin-top: 10px;
 }
 #about{
-  background-color: #EFFCEB; /*#E6F1F5*/
->>>>>>> origin/master
+  background-color: #EEEDFA /*#EBF7FC; /*#EFFCEB; /*#E6F1F5*/
   width:auto;
   height:auto;
   
@@ -125,19 +99,11 @@ h1.intro{
 	padding-left: 20px;
 }
 #portfolio{
-<<<<<<< HEAD
-	background-color: #EEEDFA 
+	background-color: #EEEDFA /*#EBF7FC; /*#EFFCEB;*/
 	padding-top: 50px;
 }
 #contact{
-background-color: #EEEDFA 
-=======
-	background-color: #EFFCEB;
-	padding-top: 50px;
-}
-#contact{
-background-color: #EFFCEB;
->>>>>>> origin/master
+background-color: #EEEDFA /*#EBF7FC; /*#EFFCEB;*/
   width:auto;
   height:600px;
   padding-top: 50px; 
@@ -146,13 +112,6 @@ background-color: #EFFCEB;
 .myText{
 	font-family: 'Montserrat Alternates', sans-serif!important;
 }
-<<<<<<< HEAD
-.quote {
-    border-left: 5px solid #bdc3c7;
-    padding-left: 5px;
-}
-=======
->>>>>>> origin/master
 hr{
   color: black !important;
   border-color: black !important;
@@ -175,12 +134,9 @@ hr{
     /*font-weight: 400;*/
     letter-spacing: 2px!important;
   }
-<<<<<<< HEAD
   .btn-lg, .btn-group-lg > .btn {
     width: 150px;
   }
-=======
->>>>>>> origin/master
 .end-note{
   font-family: 'Space Mono', monospace;
   font-size: 14px;
@@ -190,34 +146,18 @@ hr{
   width: 100%;
   float: left;
   height: 80px;
-<<<<<<< HEAD
-  background-color: #366FF5;
-=======
-  background-color: #65DB40;
->>>>>>> origin/master
+  background-color: #366FF5; /*#65DB40;*/
 }
 .quote-top{
 padding-right:60px;
 font-family: 'Cormorant Garamond', serif!important;
 font-size: 18px;
-<<<<<<< HEAD
 }
-@media (max-width: 767px){
-  .navbar-brand{
-    padding-top: 
-    height:;
-  }
-   .footer-small{
+<<<<<<< HEAD
+@media screen and (max-width: 768px){
+  .footer-small{
     font-size: 2vw;
   }
 }
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .kor-text{
-    font-size: 1.5vw;
-  }
-}
-
 =======
-}
->>>>>>> origin/master
+>>>>>>> 95d8c4b976cc6bcf27502199323b57947d528b08
