@@ -153,7 +153,10 @@ padding-right:60px;
 font-family: 'Cormorant Garamond', serif!important;
 font-size: 18px;
 }
-
+.quote {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
 @media screen and (max-width: 768px){
   .footer-small{
     font-size: 2vw;
